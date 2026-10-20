@@ -1,0 +1,42 @@
+[
+  {
+    "text": "Hello everyone and welcome back to Systems Engineering Hub.",
+    "start": 0.0,
+    "duration": 3.5
+  },
+  {
+    "text": "Today we are dissecting event-driven architecture using Rust.",
+    "start": 3.6,
+    "duration": 4.2
+  },
+  {
+    "text": "At 2 minutes in, we configure the multi-threaded Tokio runtime for minimal context switching.",
+    "start": 135.0,
+    "duration": 5.8
+  },
+  {
+    "text": "By pinning worker threads to specific CPU cores, cache locality improves by 40%.",
+    "start": 141.0,
+    "duration": 6.2
+  },
+  {
+    "text": "Next at 6 minutes 40 seconds, let's examine zero-copy buffer pooling.",
+    "start": 400.0,
+    "duration": 5.0
+  },
+  {
+    "text": "Using bytes crate slicing eliminates heap reallocations across network frame boundaries.",
+    "start": 405.5,
+    "duration": 6.5
+  },
+  {
+    "text": "Looking at benchmarks against our Go baseline, Rust shows a 3x throughput gain under p99 latency.",
+    "start": 730.0,
+    "duration": 7.0
+  },
+  {
+    "text": "To conclude, choosing zero-copy primitives is essential when servicing over 100k requests per second.",
+    "start": 1125.0,
+    "duration": 6.0
+  }
+]

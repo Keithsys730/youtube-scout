@@ -1,0 +1,32 @@
+# YouTube Scout Configuration
+reports_dir: "reports"
+history_file: "data/history.db"
+cooldown_days: 30
+default_language: "zh-TW"
+preferred_caption_languages:
+  - "zh-TW"
+  - "zh-Hant"
+  - "zh"
+  - "en"
+
+top_n: 3
+
+search:
+  order: "relevance"
+  max_results: 50
+  top_n: 3
+
+filter:
+  min_duration_seconds: 120
+
+ranking:
+  weights:
+    velocity: 0.5
+    engagement: 0.3
+    recency: 0.2
+  recency_half_life_days: 30.0
+
+llm:
+  model: "gpt-4o-mini"
+  temperature: 0.2
+

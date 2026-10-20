@@ -1,0 +1,35 @@
+{
+  "kind": "youtube#videoListResponse",
+  "etag": "test_etag_12345",
+  "items": [
+    {
+      "kind": "youtube#video",
+      "etag": "item_etag_12345",
+      "id": "dQw4w9WgXcQ",
+      "snippet": {
+        "publishedAt": "2024-03-15T14:30:00Z",
+        "channelId": "UCuAXFkgsw1L7xaCfnd5JJOw",
+        "title": "Building High-Throughput Event-Driven Microservices in Rust",
+        "description": "In this technical deep dive, we explore how to architect high-throughput event loops.\n\nChapters:\n00:00 Introduction and System Context\n02:15 Tokio Runtime Configuration\n06:40 Zero-Copy Buffer Management\n12:10 Benchmark Comparison vs Go\n18:45 Conclusion and Next Steps\n\nGitHub repo: https://github.com/example/rust-events",
+        "channelTitle": "Systems Engineering Hub",
+        "tags": ["rust", "microservices", "tokio", "architecture"]
+      },
+      "contentDetails": {
+        "duration": "PT21M45S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "true"
+      },
+      "statistics": {
+        "viewCount": "142500",
+        "likeCount": "8920",
+        "favoriteCount": "0",
+        "commentCount": "412"
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 1
+  }
+}
